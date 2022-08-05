@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    background-color: #F5F2F0;
+    color: #333333;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container-left .logo{
+    position: absolute;
+    width: 100px;
+    top: 50px;
+    left: 100px;
+}
+
+.person {
+    width: 550px;
+    height: 100vh;
+}
+
+.container-right {
+    width: 100%;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-line{
+    position: absolute;
+    border-bottom: 2px solid #333333;
+    width: 200px;
+    left: 600px;
+}
+
+.nav-items{
+    width: 100%;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-items li a{
+    color: #333333;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-hero{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.hero-part{
+    display: flex;
+    flex-direction: row;
+}
+.crea{
+    font-family: 'Merriweather', cursive;
+    font-size: 72px;
+    padding-left: 30px;
+    height: 140px;
+    -webkit-text-stroke: 1px #000000;
+    color: transparent;
+}
+
+.tivity{
+    color: #333333;
+    font-family: 'Merriweather', serif;
+    padding-left: 200px;
+    font-size: 72px;
+}
+
+.tivity-is{
+    font-family: 'Merriweather', serif;
+    margin-top: 65px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 12%;
+}
+.social-media img{
+    width: 20px;
+    margin-top: 40px;
+}
+.social-media img:hover{
+    width: 30px;
+}
+
+
+.btn-div{
+    padding-left: 500px;
+}
+
+.btn-group{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    width: 80%;
+    padding: 15px 0px;
+    background-color: #333333;
+    color: #ffffff;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.graphy{
+    padding-left: 40px;
+    width: 20%;
+}
+.graphy li{
+    font-family: 'Mulish', sans-serif;
+    padding-top: 25px;
+}
+.graphy li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+}
+
+.graphy-line{
+    position: absolute;
+    top: 550px;
+    width: 200px;
+    border-bottom: 1px solid #333333;
+    transform: rotate(90deg);
+    left: 493px;
+}
+
+.graphy li a:hover, .nav-items li a:hover{
+    font-weight: 900;
+}
+
+.bottom-text h1{
+    font-size: 75px;
+    height: 65px;
+}
+
+.bottom-text{
+    margin-left: 40px;
+}
+
+.bottom-text img{
+    margin-top: 10px;
+    width: 400px;
+}
+
+.bottom-text p{
+    font-family: 'Mulish', sans-serif;
+}
+
+.btn-group:hover{
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.arrow{
+    position:absolute;
+    transform: rotate(90deg);
+    width: fit-content;
+    top: 500px;
+    right: 20px;
+}
+
+.arrow img{
+    height: 100px;
+}
+
